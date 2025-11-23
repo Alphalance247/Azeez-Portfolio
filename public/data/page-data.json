@@ -17,7 +17,7 @@
         "type": "website",
         "label": "IBADAN, NIGERIA",
         "icon": "/images/icon/web-icon.svg",
-        "link": "#"
+        "link": "/"
       }
     ],
     "socialItems": [
@@ -29,12 +29,12 @@
       {
         "platform": "linkedin",
         "icon": "/images/icon/linkedin-icon.svg",
-        "link": "https://linkedin.com"
+        "link": "https://www.linkedin.com/in/moshood-azeez-8159461b9/"
       },
       {
         "platform": "github",
         "icon": "/images/icon/facebook-icon.svg",
-        "link": "https://github.com/Alphalance247"
+        "link": "/"
       }
     ]
   },
