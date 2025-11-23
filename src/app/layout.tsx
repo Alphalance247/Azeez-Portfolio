@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Moshood Azeez Lawal | Frontend Engineer | React & Next.js Specialist",
   description:
     "4+ years of experience building high-performance, accessible web applications with React, Next.js, and TypeScript. Expert in clean architecture, performance optimization, and scalable state management.",
+  icons: {
+    icon: "/images/icon/dev.png",
+  },
 };
 
 export default function RootLayout({
