@@ -1,40 +1,46 @@
 {
   "workData": [
     {
-      "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "image": "/images/work/1.png",
+      "title": "Company Managed Website",
+      "client": "Alluvium",
+      "slug": "https://alluvium.net/"
     },
     {
-      "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "image": "/images/work/3.png",
+      "title": "Investor-Farmer Workflow Platform",
+      "client": "FarmPady",
+      "slug": "https://farmpady.com/"
     },
     {
-      "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "image": "/images/work/4.png",
+      "title": "Student Management & Learning Platform",
+      "client": "Nubyira",
+      "slug": "https://nubyira.com/"
     },
     {
-      "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
+      "image": "/images/work/2.png",
+      "title": "Enterprise Payroll & HR Management Platform",
+      "client": "Alluvium",
+      "slug": "https://yen.ec2.alluvium.net/"
     },
     {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "image": "/images/work/5.png",
+      "title": "Jaytee Ojo Foundation Website",
+      "client": "Personal Project",
+      "slug": "https://jaytee-ojo-demo-repo.vercel.app/"
     },
     {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "image": "/images/work/6.png",
+      "title": "Career Mentorship Platform",
+      "client": "Freelance",
+      "slug": "https://abroadwithpurpose.com/"
+    },
+    {
+      "image": "/images/work/7.png",
+      "title": "Tesneem Logistics",
+      "client": "Freelance",
+      "slug": "https://www.tesneemltd.com/"
     }
   ]
 }

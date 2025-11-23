@@ -35,19 +35,26 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text.
+                  I&apos;m a passionate Frontend Engineer with 4+ years of
+                  experience specializing in React, Next.js, and TypeScript. I
+                  excel at building high-performance, accessible web
+                  applications that deliver exceptional user experiences. My
+                  expertise lies in translating complex product requirements
+                  into polished UI flows, architecting scalable component
+                  systems, and optimizing applications for peak performance.
+                  I&apos;ve consistently delivered measurable results, including
+                  35-40% performance improvements and significant increases in
+                  user engagement. Currently, I&apos;m leading frontend
+                  development for enterprise-grade platforms at Alluvium, where
+                  I was recognized with the Unsung Hero Award for exceptional
+                  contributions to project success.
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                   {[
-                    { count: "06", label: "Years of experience" },
-                    { count: "165+", label: "Happy Clients" },
-                    { count: "1800+", label: "Project Completed" },
+                    { count: "4+", label: "Years of experience" },
+                    { count: "35%", label: "Avg Performance Boost" },
+                    { count: "3+", label: "Enterprise Projects" },
                   ].map((item, i) => (
                     <div key={i}>
                       <h3>{item.count}</h3>
@@ -69,7 +76,7 @@ const AboutMe = () => {
                     <p className="text-base xl:text-xl text-black">Language</p>
                   </div>
                   <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["English", "Hindi", "Malayalam"].map((lang) => (
+                    {["English", "Arabic"].map((lang) => (
                       <p
                         key={lang}
                         className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"

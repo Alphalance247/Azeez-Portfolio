@@ -39,16 +39,19 @@ const LatestWork = () => {
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
                     <div className="relative">
-                      <Image
-                        src={getImgPath(value?.image)}
-                        alt="image"
-                        width={570}
-                        height={414}
-                        className="rounded-lg w-full h-full object-cover"
-                      />
+                      <Link href={`${value.slug}`} target="_blank">
+                        <Image
+                          src={getImgPath(value?.image)}
+                          alt="image"
+                          width={570}
+                          height={414}
+                          className="rounded-lg w-full h-[350px] object-cover"
+                        />
+                      </Link>
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={`${value.slug}`}
+                        target="_blank"
+                        // onClick={(e) => e.preventDefault()}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -79,7 +82,7 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`${value.slug}`}>
+                        <Link href={`${value.slug}`} target="_blank">
                           <h5>{value?.title}</h5>
                         </Link>
                         <Image

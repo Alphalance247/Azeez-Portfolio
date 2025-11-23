@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 const EducationSkills = () => {
   const [educationData, setEductionData] = useState<any>(null);
 
+  console.log(educationData);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -63,12 +65,35 @@ const EducationSkills = () => {
                       className="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-5 sm:gap-10 items-center justify-between"
                     >
                       <div className="flex flex-col items-center gap-5">
-                        <Image
-                          src={getImgPath(value?.icon)}
-                          alt="icon"
-                          width={70}
-                          height={70}
-                        />
+                        {value?.icon?.startsWith("http") ? (
+                          <img
+                            src={value.icon}
+                            alt={value?.name}
+                            width={70}
+                            height={70}
+                            className="object-contain"
+                            loading="lazy"
+                            crossOrigin="anonymous"
+                            onError={(e) => {
+                              const target = e.currentTarget;
+                              // Try fallback URLs for specific icons
+                              if (value?.name === "React Query") {
+                                target.src = "https://avatars.githubusercontent.com/u/72518640?s=200&v=4";
+                              } else if (value?.name === "Zustand") {
+                                target.src = "https://github.com/pmndrs.png";
+                              } else {
+                                target.src = getImgPath("/images/home/education-skill/figma-icon.svg");
+                              }
+                            }}
+                          />
+                        ) : (
+                          <Image
+                            src={getImgPath(value?.icon)}
+                            alt={value?.name}
+                            width={70}
+                            height={70}
+                          />
+                        )}
                         <p className="text-black font-normal">{value?.name}</p>
                       </div>
                       <div className="flex gap-1">

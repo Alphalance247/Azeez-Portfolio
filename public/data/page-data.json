@@ -3,28 +3,28 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
+        "label": "al.moshood017@gmail.com",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:hello@imsruthi.com"
+        "link": "mailto:al.moshood017@gmail.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
+        "label": "+2348140686688",
         "icon": "/images/icon/call-icon.svg",
-        "link": "tel:+90155882500"
+        "link": "tel:+2348140686688"
       },
       {
         "type": "website",
-        "label": "www.mywebsite.com",
+        "label": "IBADAN, NIGERIA",
         "icon": "/images/icon/web-icon.svg",
-        "link": "https://www.mywebsite.com"
+        "link": "#"
       }
     ],
     "socialItems": [
       {
-        "platform": "dribbble",
+        "platform": "github",
         "icon": "/images/icon/dribble-icon.svg",
-        "link": "https://dribbble.com"
+        "link": "https://github.com/Alphalance247"
       },
       {
         "platform": "linkedin",
@@ -32,85 +32,100 @@
         "link": "https://linkedin.com"
       },
       {
-        "platform": "facebook",
+        "platform": "github",
         "icon": "/images/icon/facebook-icon.svg",
-        "link": "https://facebook.com"
+        "link": "https://github.com/Alphalance247"
       }
     ]
   },
   "educationData": {
     "education": [
       {
-        "title": "Lipsum Collage - 2010",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+        "title": "Bachelor of Science - 2/2023",
+        "description": "Federal University of Technology, Minna. Graduated with a strong foundation in computer science and software engineering principles."
       },
       {
-        "title": "Master Diploma - 2012",
-        "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        "title": "Meta Front-End Developer Certification",
+        "description": "Professional certification in React & JavaScript, validating expertise in modern frontend development practices and frameworks."
       },
       {
-        "title": "Master in User Experience - 2014",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+        "title": "Unsung Hero Award – Alluvium (2024)",
+        "description": "Recognized for exceptional behind-the-scenes contributions and consistent dedication to project success, demonstrating leadership and commitment to excellence."
       }
     ],
     "skills": [
       {
-        "name": "Figma",
-        "icon": "/images/home/education-skill/figma-icon.svg",
+        "name": "React",
+        "icon": "/images/home/education-skill/react.png",
         "rating": 5
       },
       {
-        "name": "Photoshop",
-        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "name": "Next.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
         "rating": 5
       },
       {
-        "name": "Sketch",
-        "icon": "/images/home/education-skill/sketch-icon.svg",
-        "rating": 4
-      },
-      {
-        "name": "Adobe XD",
-        "icon": "/images/home/education-skill/adobe-icon.svg",
-        "rating": 4
-      },
-      {
-        "name": "Framer",
-        "icon": "/images/home/education-skill/framer-icon.svg",
+        "name": "TypeScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         "rating": 5
       },
       {
-        "name": "Invasion",
-        "icon": "/images/home/education-skill/invision-icon.svg",
+        "name": "Vue.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
         "rating": 3
+      },
+      {
+        "name": "Angular",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+        "rating": 3
+      },
+      {
+        "name": "GitHub",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        "rating": 5
+      },
+      {
+        "name": "Bitbucket",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
+        "rating": 4
+      },
+      {
+        "name": "Jira",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+        "rating": 4
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "rating": 5
       }
     ]
   },
   "contactLinks": {
     "socialLinks": [
       {
-        "title": "Dribble",
-        "href": "/"
-      },
-      {
-        "title": "Facebook",
-        "href": "/"
+        "title": "GitHub",
+        "href": "https://github.com/Alphalance247"
       },
       {
         "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/moshood-azeez-8159461b9/"
+      },
+      {
+        "title": "Portfolio",
         "href": "/"
       }
     ],
     "contactInfo": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
-        "link": "mailto:hello@imsruthi.com"
+        "label": "al.moshood017@gmail.com",
+        "link": "mailto:al.moshood017@gmail.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
-        "link": "tel:+90155882500"
+        "label": "+2348140686688",
+        "link": "tel:+2348140686688"
       }
     ]
   }
