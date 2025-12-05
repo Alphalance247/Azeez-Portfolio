@@ -33,7 +33,6 @@ const ContactBar = () => {
                 (value: any, index: number) => (
                   <Link
                     key={index}
-                    onClick={(e) => e.preventDefault()}
                     href={value?.link}
                     className="flex items-center gap-2 lg:gap-4 text-sm md:text-base"
                   >
@@ -56,11 +55,7 @@ const ContactBar = () => {
             {/* Social Items */}
             <div className="flex items-center justify-center md:justify-end gap-4 md:gap-2.5">
               {contactBarData?.socialItems?.map((value: any, index: number) => (
-                <Link
-                  key={index}
-                  onClick={(e) => e.preventDefault()}
-                  href={value?.link}
-                >
+                <Link key={index} href={value?.link}>
                   <Image
                     src={getImgPath(value?.icon)}
                     alt={value?.platform}
