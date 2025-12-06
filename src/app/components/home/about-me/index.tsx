@@ -58,7 +58,7 @@ const AboutMe = () => {
                   ].map((item, i) => (
                     <div key={i}>
                       <h3>{item.count}</h3>
-                      <p className="text-base md:text-lg text-black">
+                      <p className="text-sm md:text-lg text-black">
                         {item.label}
                       </p>
                     </div>

@@ -87,7 +87,7 @@ button:hover::before {
 
 @layer base {
   h1 {
-    @apply text-4xl md:text-5xl xl:text-7xl 2xl:text-[70px] font-semibold leading-tight;
+    @apply text-3xl md:text-5xl xl:text-7xl 2xl:text-[70px] font-semibold leading-tight;
   }
 
   h2 {
@@ -111,7 +111,7 @@ button:hover::before {
   }
 
   p {
-    @apply text-base text-secondary;
+    @apply text-sm md:text-base text-secondary;
   }
 }
 

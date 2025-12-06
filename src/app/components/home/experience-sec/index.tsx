@@ -57,7 +57,7 @@ const ExperienceSec = () => {
                     ></div>
                   )}
 
-                  <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
+                  <div className="no-print absolute left-0 top-1 transform -translate-x-1/2">
                     <div
                       className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${
                         index === 1 ? "border-primary" : "border-black"
