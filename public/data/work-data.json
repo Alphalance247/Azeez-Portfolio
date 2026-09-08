@@ -7,10 +7,10 @@
       "slug": "https://alluvium.net/"
     },
     {
-      "image": "/images/work/3.png",
-      "title": "Investor-Farmer Workflow Platform",
-      "client": "FarmPady",
-      "slug": "https://farmpady.com/"
+      "image": "/images/work/togo-mobility.png",
+      "title": "Mobility Services & Booking Platform",
+      "client": "TogoMobility",
+      "slug": "https://www.togomobility.com/"
     },
     {
       "image": "/images/work/4.png",
@@ -30,12 +30,7 @@
       "client": "Personal Project",
       "slug": "https://jaytee-ojo-demo-repo.vercel.app/"
     },
-    {
-      "image": "/images/work/6.png",
-      "title": "Career Mentorship Platform",
-      "client": "Freelance",
-      "slug": "https://abroadwithpurpose.com/"
-    },
+
     {
       "image": "/images/work/7.png",
       "title": "Tesneem Logistics",

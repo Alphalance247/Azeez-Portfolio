@@ -6,7 +6,7 @@ const Header = () => {
   const handleDownloadPDF = () => {
     // Create a temporary anchor element to trigger download
     const link = document.createElement("a");
-    link.href = "/images/pdf/pdf.pdf";
+    link.href = "/images/pdf/Moshood Azeez Resume PDF.pdf";
     link.download = "AbdulAzeez-Resume.pdf"; // You can customize the filename
     document.body.appendChild(link);
     link.click();
